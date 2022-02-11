@@ -3,7 +3,7 @@
 @extends('guest.layout.base') 
 
 @section('page_title')
-    DC Comics | Home
+    {{ $page_name }}
 @endsection
 
 
@@ -12,7 +12,7 @@
     <main>
 
         <div class="main_jumbo">
-            
+
         </div>
         <div class="cards_container">
             <div class="cards_contained">
@@ -24,7 +24,13 @@
                 @endforeach
                
             </div>
+
+            <div class="button_container">
+                <button><a href="">load more</a></button>
+            </div>
+
         </div>
+
     
         <div class="bottom_section">
             <div class="bottom_section_contained">

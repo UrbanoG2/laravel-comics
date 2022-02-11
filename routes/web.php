@@ -228,10 +228,31 @@ Route::get('/', function () {
             ],
         ],
     ];
-
-
-    $data = ["thumbnails" => $thumbnails];
-
+    $data = ["thumbnails" => $thumbnails, "page_name" => "DC Comics | Home"];
     return view('home', $data);
     
-})  ;
+});
+
+Route::get('/characters', function () {
+    return view('characters');
+});
+
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+Route::get('/tv', function () {
+    return view('tv');
+});
+
+Route::get('/games', function () {
+    return view('games');
+});
+
+Route::get('/videos', function () {
+    return view('videos');
+});
+
+
+

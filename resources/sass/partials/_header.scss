@@ -37,10 +37,19 @@ header {
         }
 
         .search {
+
+            border-bottom: 2px solid blue;
+
             input {
                 border: none;
-                border-bottom: 2px solid blue;
                 outline: none;
+                text-align: right;
+            }
+
+            button {
+                background-color: white;
+                border: none;
+                margin-left: 10px;
             }
         }
     }

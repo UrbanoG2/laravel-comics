@@ -10,6 +10,7 @@ main {
     .cards_container {
         background-color: black;
         color: white;
+        padding-bottom: 1em;
 
         .cards_contained {
             width: 80%;
@@ -35,12 +36,31 @@ main {
                     font-size: 0.8em;
                 }
             }
+
+           
+        }
+
+        .button_container {
+            width: 10%;
+            margin: 0 auto;
+            button {
+                background-color: RGB(2, 130, 249);
+                border: none;
+                padding: 1em 2.5em;
+                a {
+                    color: white;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
         }
     }
 
+    
+
     .bottom_section {
         height: 120px;
-        background-color: blue;
+        background-color: RGB(2, 130, 249);
     
         .bottom_section_contained {
             width: 80%;
