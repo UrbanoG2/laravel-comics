@@ -12,7 +12,7 @@
     <main>
 
         <div class="main_jumbo">
-            jumbo
+            
         </div>
         <div class="cards_container">
             <div class="cards_contained">
