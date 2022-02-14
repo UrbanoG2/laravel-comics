@@ -1,0 +1,28 @@
+.single_comic_container {
+    width: 100%;
+    margin-bottom: 1em;
+
+    .single_comic_contained {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 1em 0;
+        color: RGB(2, 130, 249);
+        text-transform: uppercase;
+    }
+
+    .comic_main_info {
+        display: flex;
+        align-items: center;
+
+        p {
+            line-height: 1.6em;
+            font-size: 1.5em;
+            margin-right: 2em;
+        }
+
+      
+    }
+}

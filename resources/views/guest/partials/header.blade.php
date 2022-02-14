@@ -19,6 +19,10 @@
         <div class="search">
             <input type="text" placeholder="Search">
             <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
-        </div>
-  </div>
+        </div> 
+   </div>
+
+    <div class="main_jumbo">
+
+    </div>
 </header>

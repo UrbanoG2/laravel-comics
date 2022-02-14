@@ -59,13 +59,14 @@ header .header-container .search button {
   margin-left: 10px;
 }
 
-main {
-  width: 100%;
-}
-main .main_jumbo {
+.main_jumbo {
   height: 400px;
   background-image: url("../../img/jumbotron.jpg");
   background-position: top;
+}
+
+main {
+  width: 100%;
 }
 main .cards_container {
   background-color: black;
@@ -89,7 +90,11 @@ main .cards_container .cards_contained .card_container img {
   width: 100%;
   aspect-ratio: 1;
 }
-main .cards_container .cards_contained .card_container h2 {
+main .cards_container .cards_contained .card_container a {
+  color: white;
+  text-decoration: none;
+}
+main .cards_container .cards_contained .card_container a h2 {
   margin-top: 1.5em;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -243,4 +248,27 @@ main .bottom_section .bottom_section_contained .main_list li a {
 .footer-bottom .footer-bottom-contained .follow-container img:hover {
   border: 2px solid RGB(2, 130, 249);
   border-radius: 50%;
+}
+
+.single_comic_container {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.single_comic_container .single_comic_contained {
+  width: 70%;
+  margin: 0 auto;
+}
+.single_comic_container h1 {
+  margin: 1em 0;
+  color: RGB(2, 130, 249);
+  text-transform: uppercase;
+}
+.single_comic_container .comic_main_info {
+  display: flex;
+  align-items: center;
+}
+.single_comic_container .comic_main_info p {
+  line-height: 1.6em;
+  font-size: 1.5em;
+  margin-right: 2em;
 }

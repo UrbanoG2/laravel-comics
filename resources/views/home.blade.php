@@ -11,15 +11,21 @@
 @section('main_content')
     <main>
 
-        <div class="main_jumbo">
+        {{-- <div class="main_jumbo">
 
-        </div>
+        </div> --}}
         <div class="cards_container">
             <div class="cards_contained">
-                @foreach ($thumbnails as $thumb)
+                @foreach ($comics as $thumb)
                     <div class="card_container">
-                        <img src="{{ $thumb["thumb"] }} " alt="">
-                        <a href={{ route('comic', $thumb['id'])}}><h2> {{ $thumb["title"] }} </h2></a>
+                        
+
+                        <a href={{ route('comic', $thumb['id'])}}>
+                            <img src="{{ $thumb["thumb"] }} " alt="">
+                            <h2> {{ $thumb["title"] }} </h2>
+                        </a>
+
+
                     </div>
                 @endforeach
                
