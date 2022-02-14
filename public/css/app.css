@@ -19,7 +19,6 @@ header .logo-container img {
   width: 60%;
 }
 header .header-container {
-  padding: 1em 0;
   width: 60%;
   margin: 0 auto;
   display: flex;
@@ -32,21 +31,21 @@ header .header-container ul {
   align-items: center;
   list-style: none;
 }
-header .header-container ul li a {
+header .header-container ul a:hover,
+header .header-container ul a:active,
+header .header-container ul li a.active {
+  border-bottom: 4px solid RGB(2, 130, 249);
+}
+header .header-container ul a {
   display: block;
   text-decoration: none;
-  padding: 1em;
+  padding: 4em 1em;
   text-transform: uppercase;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.823);
 }
-header .header-container ul li:hover,
-header .header-container ul li:active,
-header .header-container ul li.active {
-  border-bottom: 2px solid blue;
-}
 header .header-container .search {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid RGB(2, 130, 249);
 }
 header .header-container .search input {
   border: none;
@@ -271,4 +270,14 @@ main .bottom_section .bottom_section_contained .main_list li a {
   line-height: 1.6em;
   font-size: 1.5em;
   margin-right: 2em;
+}
+
+.bottom_comic_container {
+  width: 100%;
+  background-color: #8c8c8c;
+}
+.bottom_comic_container .bottom_comic_contained {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
 }

@@ -14,4 +14,18 @@
             </div>
        </div>
    </div>
+
+   <div class="bottom_comic_container">
+     <div class="bottom_comic_contained">
+        <div class="talent_container">
+            <h1>Talent</h1>
+        </div>
+
+        <div class="specs_container">
+            <h1>Specs</h1>
+        </div>
+     </div>
+    </div>
+
+   
 @endsection

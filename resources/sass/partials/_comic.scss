@@ -22,7 +22,16 @@
             font-size: 1.5em;
             margin-right: 2em;
         }
+    }
+}
 
-      
+.bottom_comic_container {
+    width: 100%;
+    background-color:rgb(140, 140, 140);
+
+    .bottom_comic_contained {
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
     }
 }

@@ -6,7 +6,6 @@ header {
     }
 
     .header-container {
-        padding: 1em 0;
         width:60%;
         margin: 0 auto;
         display: flex;
@@ -19,26 +18,25 @@ header {
             align-items: center;
             list-style: none;
 
-            li a {
+            a:hover,
+            a:active,
+            li a.active {
+                border-bottom: 4px solid RGB(2, 130, 249);
+            }
+            
+            a {
                 display: block;
                 text-decoration: none;
-                padding: 1em;
+                padding: 4em 1em;
                 text-transform: uppercase;
                 font-size: 10px;
                 color: rgba(0, 0, 0, 0.823);
-                
-            }
-            
-            li:hover,
-            li:active,
-            li.active {
-                border-bottom: 2px solid blue;
             }
         }
 
         .search {
 
-            border-bottom: 2px solid blue;
+            border-bottom: 2px solid RGB(2, 130, 249);
 
             input {
                 border: none;

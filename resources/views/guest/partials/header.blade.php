@@ -4,16 +4,45 @@
             <img src="img\dc-logo.png" alt="">
         </div>
         <ul>
-            <li><a href="/characters">characters</a></li>
-            <li class="active"><a href="/">comics</a></li>
-            <li><a href="/movies">movies</a></li>
-            <li><a href="/tv">tv</a></li>
-            <li><a href="/games">games</a></li>
-            <li><a href="/collectibles">collectibles</a></li>
-            <li><a href="/videos">videos</a></li>
-            <li><a href="/fans">fans</a></li>
-            <li><a href="/news">news</a></li>
-            <li><a href="/shop">shop</a></li>
+            <li>
+                <a href="{{route("characters")}}" class="{{"characters" === Route::currentRouteName() ? "active" : "" }}">characters</a>
+            </li>
+
+            <li>
+                <a href="{{route("comics")}}" class="{{"comics" === Route::currentRouteName() ? "active" : "" }}">comics</a>
+            </li>
+
+            <li>
+                <a href="{{route("movies")}}" class="{{"movies" === Route::currentRouteName() ? "active" : "" }}">movies</a>
+            </li>
+
+             <li>
+                <a href="{{route("tv")}}" class="{{"tv" === Route::currentRouteName() ? "active" : "" }}">tv</a>
+            </li>
+
+            <li>
+                <a href="{{route("games")}}" class="{{"games" === Route::currentRouteName() ? "active" : "" }}">games</a>
+            </li>
+
+            <li>
+                <a href="{{route("collectibles")}}" class="{{"collectibles" === Route::currentRouteName() ? "active" : "" }}">collectibles</a>
+            </li>
+
+            <li>
+                <a href="{{route("videos")}}" class="{{"videos" === Route::currentRouteName() ? "active" : "" }}">videos</a>
+            </li>
+
+            <li>
+                <a href="{{route("fans")}}" class="{{"fans" === Route::currentRouteName() ? "active" : "" }}">fans</a>
+            </li>
+            
+            <li>
+                <a href="{{route("news")}}" class="{{"news" === Route::currentRouteName() ? "active" : "" }}">news</a>
+            </li>
+
+            <li>
+                <a href="{{route("shop")}}" class="{{"shop" === Route::currentRouteName() ? "active" : "" }}">shop</a>
+            </li>
         </ul>
 
         <div class="search">

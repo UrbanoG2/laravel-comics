@@ -19,12 +19,10 @@
                 @foreach ($comics as $thumb)
                     <div class="card_container">
                         
-
                         <a href={{ route('comic', $thumb['id'])}}>
                             <img src="{{ $thumb["thumb"] }} " alt="">
                             <h2> {{ $thumb["title"] }} </h2>
                         </a>
-
 
                     </div>
                 @endforeach
