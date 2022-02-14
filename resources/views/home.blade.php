@@ -19,7 +19,7 @@
                 @foreach ($thumbnails as $thumb)
                     <div class="card_container">
                         <img src="{{ $thumb["thumb"] }} " alt="">
-                        <h2> {{ $thumb["title"] }} </h2>
+                        <a href={{ route('comic', $thumb['id'])}}><h2> {{ $thumb["title"] }} </h2></a>
                     </div>
                 @endforeach
                
